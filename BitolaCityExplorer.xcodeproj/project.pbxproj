@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000000000000000000000065 /* BitolaCityExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000064 /* BitolaCityExplorerApp.swift */; };
+		000000000000000000000067 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000066 /* Place.swift */; };
+		000000000000000000000069 /* FavoritePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000068 /* FavoritePlace.swift */; };
+		00000000000000000000006B /* WeatherModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006A /* WeatherModels.swift */; };
+		00000000000000000000006D /* SamplePlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006C /* SamplePlaces.swift */; };
+		00000000000000000000006F /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006E /* LocationService.swift */; };
+		000000000000000000000071 /* MapService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000070 /* MapService.swift */; };
+		000000000000000000000073 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000072 /* NotificationService.swift */; };
+		000000000000000000000075 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000074 /* AuthService.swift */; };
+		000000000000000000000077 /* WeatherAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000076 /* WeatherAPIService.swift */; };
+		000000000000000000000079 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000078 /* StorageService.swift */; };
+		00000000000000000000007B /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000007A /* CameraService.swift */; };
+		00000000000000000000007D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000007C /* SplashScreen.swift */; };
+		00000000000000000000007F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000007E /* MainTabView.swift */; };
+		000000000000000000000081 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000080 /* HomeScreen.swift */; };
+		000000000000000000000083 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000082 /* MapScreen.swift */; };
+		000000000000000000000085 /* PlaceDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000084 /* PlaceDetailsScreen.swift */; };
+		000000000000000000000087 /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000086 /* FavoritesScreen.swift */; };
+		000000000000000000000089 /* CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000088 /* CameraPicker.swift */; };
+		00000000000000000000008B /* CameraScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000008A /* CameraScreen.swift */; };
+		00000000000000000000008D /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000008C /* SettingsScreen.swift */; };
+		00000000000000000000008F /* RemotePlaceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000008E /* RemotePlaceImage.swift */; };
+		000000000000000000000091 /* AnimatedPlaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000090 /* AnimatedPlaceCard.swift */; };
+		000000000000000000000012 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 000000000000000000000011 /* Kingfisher */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000005 /* BitolaCityExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitolaCityExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000064 /* BitolaCityExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitolaCityExplorerApp.swift; sourceTree = "<group>"; };
+		000000000000000000000066 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		000000000000000000000068 /* FavoritePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlace.swift; sourceTree = "<group>"; };
+		00000000000000000000006A /* WeatherModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModels.swift; sourceTree = "<group>"; };
+		00000000000000000000006C /* SamplePlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePlaces.swift; sourceTree = "<group>"; };
+		00000000000000000000006E /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		000000000000000000000070 /* MapService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapService.swift; sourceTree = "<group>"; };
+		000000000000000000000072 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		000000000000000000000074 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		000000000000000000000076 /* WeatherAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIService.swift; sourceTree = "<group>"; };
+		000000000000000000000078 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		00000000000000000000007A /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		00000000000000000000007C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		00000000000000000000007E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		000000000000000000000080 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		000000000000000000000082 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		000000000000000000000084 /* PlaceDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsScreen.swift; sourceTree = "<group>"; };
+		000000000000000000000086 /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesScreen.swift; sourceTree = "<group>"; };
+		000000000000000000000088 /* CameraPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPicker.swift; sourceTree = "<group>"; };
+		00000000000000000000008A /* CameraScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScreen.swift; sourceTree = "<group>"; };
+		00000000000000000000008C /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		00000000000000000000008E /* RemotePlaceImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotePlaceImage.swift; sourceTree = "<group>"; };
+		000000000000000000000090 /* AnimatedPlaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedPlaceCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000012 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000003 /* BitolaCityExplorer */,
+				000000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* BitolaCityExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000064 /* BitolaCityExplorerApp.swift */,
+				000000000000000000000013 /* Models */,
+				000000000000000000000014 /* Data */,
+				000000000000000000000015 /* Services */,
+				000000000000000000000016 /* Views */,
+			);
+			path = BitolaCityExplorer;
+			sourceTree = "<group>";
+		};
+		000000000000000000000013 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000066 /* Place.swift */,
+				000000000000000000000068 /* FavoritePlace.swift */,
+				00000000000000000000006A /* WeatherModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		000000000000000000000014 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000006C /* SamplePlaces.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		000000000000000000000015 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000006E /* LocationService.swift */,
+				000000000000000000000070 /* MapService.swift */,
+				000000000000000000000072 /* NotificationService.swift */,
+				000000000000000000000074 /* AuthService.swift */,
+				000000000000000000000076 /* WeatherAPIService.swift */,
+				000000000000000000000078 /* StorageService.swift */,
+				00000000000000000000007A /* CameraService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		000000000000000000000016 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000007C /* SplashScreen.swift */,
+				00000000000000000000007E /* MainTabView.swift */,
+				000000000000000000000080 /* HomeScreen.swift */,
+				000000000000000000000082 /* MapScreen.swift */,
+				000000000000000000000084 /* PlaceDetailsScreen.swift */,
+				000000000000000000000086 /* FavoritesScreen.swift */,
+				000000000000000000000088 /* CameraPicker.swift */,
+				00000000000000000000008A /* CameraScreen.swift */,
+				00000000000000000000008C /* SettingsScreen.swift */,
+				000000000000000000000017 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		000000000000000000000017 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000008E /* RemotePlaceImage.swift */,
+				000000000000000000000090 /* AnimatedPlaceCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		000000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* BitolaCityExplorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000006 /* BitolaCityExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00000000000000000000000B /* Build configuration list for PBXNativeTarget "BitolaCityExplorer" */;
+			buildPhases = (
+				000000000000000000000007 /* Sources */,
+				000000000000000000000008 /* Frameworks */,
+				000000000000000000000009 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = BitolaCityExplorer;
+			packageProductDependencies = (
+				000000000000000000000011 /* Kingfisher */,
+			);
+			productName = BitolaCityExplorer;
+			productReference = 000000000000000000000005 /* BitolaCityExplorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					000000000000000000000006 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 00000000000000000000000A /* Build configuration list for PBXProject "BitolaCityExplorer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base);
+			mainGroup = 000000000000000000000002;
+			packageReferences = (
+				000000000000000000000010 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 000000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000006 /* BitolaCityExplorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000065 /* BitolaCityExplorerApp.swift in Sources */,
+				000000000000000000000067 /* Place.swift in Sources */,
+				000000000000000000000069 /* FavoritePlace.swift in Sources */,
+				00000000000000000000006B /* WeatherModels.swift in Sources */,
+				00000000000000000000006D /* SamplePlaces.swift in Sources */,
+				00000000000000000000006F /* LocationService.swift in Sources */,
+				000000000000000000000071 /* MapService.swift in Sources */,
+				000000000000000000000073 /* NotificationService.swift in Sources */,
+				000000000000000000000075 /* AuthService.swift in Sources */,
+				000000000000000000000077 /* WeatherAPIService.swift in Sources */,
+				000000000000000000000079 /* StorageService.swift in Sources */,
+				00000000000000000000007B /* CameraService.swift in Sources */,
+				00000000000000000000007D /* SplashScreen.swift in Sources */,
+				00000000000000000000007F /* MainTabView.swift in Sources */,
+				000000000000000000000081 /* HomeScreen.swift in Sources */,
+				000000000000000000000083 /* MapScreen.swift in Sources */,
+				000000000000000000000085 /* PlaceDetailsScreen.swift in Sources */,
+				000000000000000000000087 /* FavoritesScreen.swift in Sources */,
+				000000000000000000000089 /* CameraPicker.swift in Sources */,
+				00000000000000000000008B /* CameraScreen.swift in Sources */,
+				00000000000000000000008D /* SettingsScreen.swift in Sources */,
+				00000000000000000000008F /* RemotePlaceImage.swift in Sources */,
+				000000000000000000000091 /* AnimatedPlaceCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00000000000000000000000C /* Debug */ = {isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00000000000000000000000D /* Release */ = {isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		00000000000000000000000E /* Debug */ = {isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bitola City Explorer";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Камерата се користи за фотографирање посетени локации.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "FaceID се користи за отклучување на омилените места.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Локацијата се користи за прикажување места во близина и твојата позиција на мапата.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bojanstefanovski.BitolaCityExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		00000000000000000000000F /* Release */ = {isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bitola City Explorer";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Камерата се користи за фотографирање посетени локации.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "FaceID се користи за отклучување на омилените места.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Локацијата се користи за прикажување места во близина и твојата позиција на мапата.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bojanstefanovski.BitolaCityExplorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00000000000000000000000A /* Build configuration list for PBXProject "BitolaCityExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000C /* Debug */,
+				00000000000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00000000000000000000000B /* Build configuration list for PBXNativeTarget "BitolaCityExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000000E /* Debug */,
+				00000000000000000000000F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		000000000000000000000010 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		000000000000000000000011 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 000000000000000000000010 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
